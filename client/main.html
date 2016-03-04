@@ -1,14 +1,25 @@
 <head>
-  <title>code</title>
+  <title>Star Foundry Proj.001</title>
 </head>
 
 <body>
-  <h1>Welcome to Meteor!</h1>
+	
+	<div class="container">
+	<!-- create a header template and place it here-->
+	<!-- see the header-spec.js file in the tests/jasmine/client/integration folder and satisfy those requirements -->
+	{{> header}}
 
-  {{> hello}}
+	<!-- create a tweet template and place it here -->
+  <!-- see the tweet-spec.js file in the tests/jasmine/client/integration folder to satisfy those requirements -->
+	{{> submitTweetLayout}}
+  </div>
+
 </body>
 
-<template name="hello">
-  <button>Click Me</button>
-  <p>You've pressed the button {{counter}} times.</p>
+<template name="header">
+	
+</template>
+
+<template name="submitTweetLayout">
+	
 </template>
